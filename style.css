@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+height: 124px;
+background-color: black;
+border: 12px snow;
+border-radius: 100px;
+  
+  
+}
+.navbar{
+          width: 100vh;
+          display: flex;
+          position: sticky;
+          top:0;
+          cursor: pointer;
+          align-items: center;
+          justify-content: center;
+} 
+
+.navlist{
+  height: 33px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+ 
+  }
+  .navlist li{
+    list-style: none;
+ 
+  }
+  .navlist li a {
+    
+    text-decoration: none;
+    color: whitesmoke;
+    padding:83px;
+    font-size: 82px;
+  }
+  .navlist li a :hover{
+    text-decoration: none;
+    color: gray;
+  }
+.rightnav {
+  
+  height: 33px;
+  display: flex;
+  font-size: 33px;
+  align-items: center;
+  justify-content: center;
+
+}
+.rightnav button{
+  height: 17px;
+}
+#search{
+  
+  padding: 2px;
+  font-size: 18px;
+  border: 2px solid gray;
+  border-radius: 13px;
+  
+}
+.button button{
+  border-radius: 20px;
+  background-color: lightyellow;
+  color: red;
+  padding: 7px;
+  font-size: 42px;
+  cursor: pointer;
+  margin: 0 15px;
+ 
+}
+
+.background {
+  width: 109vh;
+  height: 6vh;
+  background: rgba(0, 0, 0, 0) url('images (2).jpeg');
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.boxmain {
+  display: flex; 
+  background: rgba(0, 0, 0, 0) url('images (3).jpeg');
+  width: 1937px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  color:white;
+  
+}
+.firsthalf{
+  height: 500px;
+   
+}
+ . secondhalf {
+   font-size: 89px;
+   
+ }
+.textbig{
+  font-size: 90px;
+  color: red;
+}
+.textsmall{
+  font-size: 56px;
+}
+.about{
+width: 100%;
+height: 20vh;
+  font-size: 25px;
+  align-content: center;
+  justify-content: center;
+
+
+
+}
+.fida img{
+ width: 400px;
+  padding: 39px;
+ align-items: center;
+ justify-content: center;
+ align-content: center;
+}
+.fida{
+  width: 96vh;
+  height: 33vh;
+  font-size: 33px;
+  padding: 33px;
+background-color: gray;
+border-radius: 100px;
+}
+.thirdhalf {
+  display: flex;
+  align-items: bottom;
+  justify-content: bottom;
+  
+  
+}
+.paragraph {
+  display: flex;
+  width: 100vh;
+  background-color: gray;
+  height: 13vh;
+  align-content: center;
+  justify-content: center;
+  font-size: 36px;
+}
+.paragraph img{
+  width: 1000px;
+  height: 200px;
+  padding: 23px;
+  border-radius: 100vh;
+  border: 5px red;
+}
+.secright{
+  width: 200%;
+  display: flex;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  font-size: 2px;
+  background-color: lightcyan;
+  padding-top: 10vh;
+}
+.secright img{
+  width: 500px;
+  border-radius: 23px;
+}
+.secleft{
+  display: flex;
+width: 200%;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  font-size: 2px;
+background-color: lightcyan;
+padding-top: 10vh;
+}
+.secleft img{
+  width: 500px;
+  padding: 33px;
+  border-radius: 54px;
+}
+.contact{
+  width: 100vh;
+  height: 23vh;
+  background-color: linen;
+  
+}
+.text{
+  text-align: center;
+  padding: 30px;
+  font-size: 33px;
+}
+ 
+ .form {
+   max-width: 800px;
+   margin: auto;
+ 
+ }
+ .form input {
+   width: 100%;
+   margin:10px; 
+   border-radius: 8px;
+ }
+ .form textarea{
+  margin: 13px;
+ }
+ 
+ 
+  
+  .footer{
+    width: 100vh;
+    text-align: center;
+    font-size: 43px;
+  color: whitesmoke;
+  background: url('images (2).jpeg');
+  }
+    .video {
+      width: 80vh;
+      padding-left: 10vh;
+      align-items: center;
+      justify-content: center;
+      align-text:center;
+    }
+    
+#clock{
+  position: relative;
+  height:80vw;
+  width: 80vw;
+  background: url('images (4).jpeg') no-repeat;
+  
+  background-size: 100%;
+  margin: auto;
+  
+ 
+}
+#hour,#minute,#second{
+  position: absolute;
+  border-radius: 10px;
+  transform-origin: bottom;
+  
+}
+#hour{
+  
+  width: 1.8%;
+  height: 25%;
+  background: black;
+  top:25%;
+  left: 48.85%;
+ 
+  
+}
+#minute {
+  
+  width: 1.6%;
+  height: 30%;
+  background: blue;
+  top:19%;
+  left:48.9%;
+}
+#second{
+ 
+  width: 1%;
+  height: 40%;
+  background-color: red;
+  top: 9%;
+  left: 49.25%;
+  
+}
+#logo{
+  width: 19%;
+  height: 19%;
+  background: url('20211205_215321.jpg');
+  border-radius: 50%;
+  background-size: 100%;
+ position: relative;
+  margin: auto;
+  top: 39%;
+}
